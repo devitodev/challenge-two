@@ -1,0 +1,103 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* background-color:#D6F8D6; */
+    background-image: url(../Professional-Website/img/forest-backgroud.jpg);
+    /* (Professional-Website/img/forest-background); */
+    color:black;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color:rgba(162,120,43,.8);
+    color: black;
+    border: white;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+
+    /* a2782b;  */
+}
+
+footer {
+    margin-top:40em;
+}
+
+
+
+/* ID Selectors */
+
+#my-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border: #55505C;
+    color: white;
+    border-radius:1em;
+    padding: 1em;
+    margin-bottom: 2em;
+
+   
+   /* trying flex box to center text (in a line) */
+    /* width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   list-style-type: none;
+   margin: auto;
+   padding: .5em; */
+}
+
+#my-list li {
+    color:white;
+    /* display: inline-block;
+    float:none;
+    padding: 1em;
+    text-align: center; */
+}
+
+#my-list li a {
+    display: block;
+    color: black;
+    text-align: center;   
+}
+
+#profile-image {
+  width: 20%;
+  height:auto;  
+  border: #55505C;
+  border-radius: .5em;
+  display: block;
+  width: 40%;
+}
+/* Class Selectors */
+
+.whitebox {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #55505C;
+    color: black;
+    border-radius:.5em;
+    padding: .5em;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.greenbox {
+    background-color: rgba(80,80,00,.8); 
+    border: #55505C;
+    color: white;
+    border-radius:.5em;
+    padding: .5em;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.profimagetext {
+    display: inline;
+}
