@@ -53,11 +53,11 @@ footer {
    padding: .5em; */
 }
 
-#my-list li {
+#navbar li {
     color:white;
 }
 
-#my-list li a {
+#navbar li a {
     display: block;
     color: black;
     text-align: center;   
