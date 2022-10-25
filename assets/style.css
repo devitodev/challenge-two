@@ -16,7 +16,7 @@ header {
     background-color:rgba(236, 42, 42, 0.8);
     color: black;
     border: white;
-    border-radius: 1%;
+    border-radius: 5%;
     padding: 1%;
     text-align: center;
     margin-bottom: 2%;
@@ -37,20 +37,10 @@ footer {
     text-decoration: none;
     border: #55505C;
     color: white;
-    border-radius:1%;
+    border-radius:5%;
     list-style-type: none;
     padding: 1%;
     margin-bottom: 2%;
-
-   
-   /* trying flex box to center text (in a line) */
-    /* width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   list-style-type: none;
-   margin: auto;
-   padding: .5em; */
 }
 
 #navbar li {
@@ -85,7 +75,7 @@ footer {
 .greenbox {
     background-color: rgba(80,80,00,.8); 
     color: white;
-    border-radius:5%;
+    border-radius: 5%;
     padding: .5%;
     list-style-type: none;
     margin-bottom: 2%;
