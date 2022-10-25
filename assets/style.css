@@ -4,8 +4,7 @@ html {
 
 body {
     /* background-color:#D6F8D6; */
-    background-image: url(../Professional-Website/img/forest-backgroud.jpg);
-    /* (Professional-Website/img/forest-background); */
+    background-image: url(../assets/forest-backgroud.jpg);
     color:black;
     margin-left: 5%;
     margin-right: 5%;
@@ -18,16 +17,16 @@ header {
     background-color:rgba(162,120,43,.8);
     color: black;
     border: white;
-    border-radius: 1em;
-    padding: 1em;
+    border-radius: 1%;
+    padding: 1%;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 2%;
 
     /* a2782b;  */
 }
 
 footer {
-    margin-top:40em;
+    margin-top:40%;
 }
 
 
@@ -56,10 +55,6 @@ footer {
 
 #my-list li {
     color:white;
-    /* display: inline-block;
-    float:none;
-    padding: 1em;
-    text-align: center; */
 }
 
 #my-list li a {
@@ -72,7 +67,7 @@ footer {
   width: 20%;
   height:auto;  
   border: #55505C;
-  border-radius: .5em;
+  border-radius: .5%;
   display: block;
   width: 40%;
 }
@@ -82,20 +77,20 @@ footer {
     background-color: rgba(255, 255, 255, 0.8);
     border: #55505C;
     color: black;
-    border-radius:.5em;
-    padding: .5em;
+    border-radius:.5%;
+    padding: .5%;
     list-style-type: none;
-    margin-bottom: 2em;
+    margin-bottom: 2%;
 }
 
 .greenbox {
     background-color: rgba(80,80,00,.8); 
     border: #55505C;
     color: white;
-    border-radius:.5em;
-    padding: .5em;
+    border-radius:.5%;
+    padding: .5%;
     list-style-type: none;
-    margin-bottom: 2em;
+    margin-bottom: 2%;
 }
 
 .profimagetext {
