@@ -43,6 +43,7 @@ nav {
 
 nav ul {
     list-style-type: none;
+    margin-right: 7.5%;
 }
 
 nav li {
@@ -80,7 +81,7 @@ nav li a {
     margin-bottom: 5%;
 }
 
-.whitebox h2 {
+.whitebox h2, h3 {
     text-align: center;
     margin-bottom: .5%;
 }
