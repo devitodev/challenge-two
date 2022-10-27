@@ -32,6 +32,7 @@ footer {
 
 nav {
     display: flex;
+    justify-content:space-between;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
     border: #55505C;
@@ -81,9 +82,20 @@ nav li a {
 
 .whitebox h2 {
     text-align: center;
+    margin-bottom: .5%;
+}
+
+.whitebox p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 5%;
 }
 
 .redbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgba(236, 42, 42, 0.8);
     color: black;
     border-radius:5%;
@@ -92,6 +104,16 @@ nav li a {
     margin-top: .5%;
 }
 
+.redbox h2 {
+    text-align: center;
+    margin-bottom: .5%;
+}
+
+.redbox p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 5%;
+}
 .profimagetext {
     display: flex;
 }
