@@ -1,3 +1,5 @@
+/* Element selectors */
+
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -20,15 +22,11 @@ header {
     padding: 1%;
     text-align: center;
     margin-bottom: 2%;
-
-    /* a2782b;  */
 }
 
 footer {
     margin-top:40%;
 }
-
-
 
 /* ID Selectors */
 
@@ -61,11 +59,11 @@ footer {
   display: block;
   width: 40%;
 }
+
 /* Class Selectors */
 
 .whitebox {
     background-color: rgba(255, 255, 255, 0.8);
-    border: #55505C;
     color: black;
     border-radius: 5%;
     list-style-type: none;
@@ -74,7 +72,7 @@ footer {
 
 .greenbox {
     background-color: rgba(80,80,00,.8); 
-    color: white;
+    color: black;
     border-radius: 5%;
     padding: .5%;
     list-style-type: none;
