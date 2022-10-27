@@ -18,7 +18,7 @@ header {
     background-color:rgba(236, 42, 42, 0.8);
     color: black;
     border: white;
-    border-radius: 5%;
+    border-radius: 15px;
     padding: 1%;
     text-align: center;
     margin-bottom: 2%;
@@ -32,12 +32,13 @@ footer {
 
 nav {
     display: flex;
-    justify-content:space-between;
-    justify-content: center;
+    /* justify-content:space-between;
+    justify-content: center; */
+    flex-direction: row;
     background-color: rgba(255, 255, 255, 0.8);
     border: #55505C;
     color: white;
-    border-radius:5%;
+    border-radius: 15px;
     margin-bottom: 2%;
 }
 
@@ -77,7 +78,7 @@ nav li a {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    border-radius: 5%;
+    border-radius: 15px;
     margin-bottom: 5%;
 }
 
