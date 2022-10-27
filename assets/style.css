@@ -83,15 +83,6 @@ nav li a {
     text-align: center;
 }
 
-.greenbox {
-    background-color: rgba(80,80,00,.8); 
-    color: black;
-    border-radius: 5%;
-    padding: .5%;
-    list-style-type: none;
-    margin-bottom: 2%;
-}
-
 .redbox {
     background-color: rgba(236, 42, 42, 0.8);
     color: black;
