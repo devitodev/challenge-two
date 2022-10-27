@@ -30,22 +30,25 @@ footer {
 
 /* ID Selectors */
 
-#navbar {
+nav {
+    display: flex;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
     border: #55505C;
     color: white;
     border-radius:5%;
-    list-style-type: none;
-    padding: 1%;
     margin-bottom: 2%;
 }
 
-#navbar li {
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
     color:white;
 }
 
-#navbar li a {
+nav li a {
     display: block;
     color: black;
     text-align: center;   
@@ -62,12 +65,22 @@ footer {
 
 /* Class Selectors */
 
+.maincontent {
+    display: flex;
+    flex-wrap: wrap;
+}
 .whitebox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
     border-radius: 5%;
-    list-style-type: none;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.whitebox h2 {
+    text-align: center;
 }
 
 .greenbox {
