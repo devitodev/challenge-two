@@ -2,7 +2,9 @@
 --roundedcorner:15px;
 }
 
-
+* {
+    box-sizing: border-box;
+}
 /* Element selectors */
 
 html {
@@ -40,7 +42,7 @@ nav {
     /* justify-content:space-between;
     justify-content: center; */
     flex-direction: row;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: none;
     border: #55505C;
     color: white;
     border-radius: var(--roundedcorner);
@@ -81,11 +83,22 @@ nav li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    background-color: rgba(2255, 255, 255, 0.8);
+    color: black;
+    border-radius:var(--roundedcorner);
+    list-style-type: none;
+    margin-bottom: 2%;
+    margin-top: .5%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
     border-radius: 15px;
-    margin-bottom: 5%;
+    margin-bottom: 5%; */
 }
+
 
 .whitebox h2, h3 {
     text-align: center;
