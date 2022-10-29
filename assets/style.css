@@ -39,9 +39,8 @@ footer {
 
 nav {
     display: flex;
-    /* justify-content:space-between;
-    justify-content: center; */
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: none;
     border: #55505C;
     color: white;
