@@ -1,3 +1,8 @@
+:root {
+--roundedcorner:15px;
+}
+
+
 /* Element selectors */
 
 html {
@@ -18,7 +23,7 @@ header {
     background-color:rgba(236, 42, 42, 0.8);
     color: black;
     border: white;
-    border-radius: 15px;
+    border-radius: var(--roundedcorner);
     padding: 1%;
     text-align: center;
     margin-bottom: 2%;
@@ -38,7 +43,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.8);
     border: #55505C;
     color: white;
-    border-radius: 15px;
+    border-radius: var(--roundedcorner);
     margin-bottom: 2%;
 }
 
@@ -61,7 +66,7 @@ nav li a {
   width: 20%;
   height:auto;  
   border: #55505C;
-  border-radius: .5%;
+  border-radius: var(--roundedcorner);
   display: block;
   width: 40%;
 }
@@ -100,7 +105,7 @@ nav li a {
     flex-direction: column;
     background-color: rgba(236, 42, 42, 0.8);
     color: black;
-    border-radius:5%;
+    border-radius:var(--roundedcorner);
     list-style-type: none;
     margin-bottom: 2%;
     margin-top: .5%;
